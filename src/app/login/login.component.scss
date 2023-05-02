@@ -1,0 +1,29 @@
+
+.login-content-wrapper {
+    margin-top:100px;
+    .card {
+      border: 1px solid rgb(88, 88, 88);
+    }
+  }
+
+.login-page-wrapper{
+    display: flex;
+    justify-content: center !important;
+}
+.btn-wrapper {
+    border-radius: 9px;
+    cursor: pointer;
+    width:100px;
+  }
+  .show-error-message {
+    color: red;
+    font-size: 13px;
+  }
+  .required-field-label::after {
+    content: "*";
+    color: red;
+  }
+  .login-header-wrapper {
+    font-family: serif;
+    font-weight: 700;
+  }

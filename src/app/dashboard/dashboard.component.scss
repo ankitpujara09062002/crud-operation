@@ -1,0 +1,20 @@
+.table{
+    border: 1px solid gray;
+    margin: 2px;
+    padding: 2px;
+    text-align: center;
+}
+.form-model-wrapper{
+    display: flex;
+
+}
+.label-wrapper{
+    width: 86px;
+}
+
+.disable {
+    input {
+        pointer-events: none;
+        opacity: 0.5;
+    }
+}
